@@ -1,0 +1,42 @@
+header {
+ background-image: linear-gradient(to bottom, #274472, #5885af);
+ border-bottom: 3px solid #fde600;
+ position: fixed;
+ width: 100%;
+ top: 0;
+ left: 0;
+ z-index: 10;
+}
+
+.header-content {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.header-content h1 {
+ font-size: 5vw;
+ font-weight: 900;
+ color: var(--mainColor);
+}
+
+.header-content h1 span {
+ font-size: 2vw;
+}
+
+
+/*media query*/
+@media (max-width: 900px) {
+ header {
+  padding-top: 0.5rem;
+ }
+
+ .header-content h1 {
+  font-size: 6.5vw;
+ }
+
+ .header-content h1 span {
+  font-size: 3vw;
+ }
+}
+

@@ -1,0 +1,30 @@
+.car {
+ padding-top: 3rem;
+}
+
+.car__details {
+ text-align: right;
+ text-transform: capitalize;
+}
+
+.car__details h2 {
+ font-size: 28px;
+ font-weight: 700;
+}
+
+.car__details span {
+ font-weight: 700;
+}
+
+.makeStyles-paper-2 {
+ overflow-y: scroll;
+}
+
+.makeStyles-paper-2::-webkit-scrollbar {
+ display: none !important;
+}
+
+.makeStyles-paper-2 {
+ -ms-overflow-style: none;
+ scrollbar-width: none;
+}

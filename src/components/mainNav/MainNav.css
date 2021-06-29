@@ -1,0 +1,13 @@
+.MuiBottomNavigation-root {
+ height: auto !important;
+}
+
+.MuiBottomNavigationAction-label {
+ font-size: 17px !important;
+}
+
+@media (max-width: 991px) {
+ .MuiBottomNavigationAction-label {
+  font-size: 12px !important;
+ }
+}

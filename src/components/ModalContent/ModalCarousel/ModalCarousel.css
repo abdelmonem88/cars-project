@@ -1,0 +1,16 @@
+.caruosel-item {
+ width: 100%;
+}
+
+.caruosel-item img {
+ width: 100%;
+ height: 250px;
+}
+
+.alice-carousel__dots-item {
+ background-color: #5885af !important;
+}
+
+.alice-carousel__dots-item.__active {
+ background-color: #fde600 !important;
+}
