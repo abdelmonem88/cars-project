@@ -15,9 +15,10 @@ const useStyles = makeStyles({
  },
  paper: {
   backgroundColor: "#fff",
-  width: "90vw",
+  width: "80vw",
   height: "80vh",
   borderRadius: "5px",
+  overflowY: "scroll",
  },
 });
 

@@ -16,11 +16,14 @@
  font-weight: 700;
 }
 
-.makeStyles-paper-2 {
- overflow-y: scroll;
-}
-
-.makeStyles-paper-2::-webkit-scrollbar {
+.makeStyles-paper-1::-webkit-scrollbar,
+.makeStyles-paper-2::-webkit-scrollbar,
+.makeStyles-paper-3::-webkit-scrollbar,
+.makeStyles-paper-4::-webkit-scrollbar,
+.makeStyles-paper-5::-webkit-scrollbar,
+.makeStyles-paper-6::-webkit-scrollbar,
+.makeStyles-paper-7::-webkit-scrollbar,
+.makeStyles-paper-8::-webkit-scrollbar {
  display: none !important;
 }
 
