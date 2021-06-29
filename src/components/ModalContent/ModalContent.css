@@ -27,7 +27,14 @@
  display: none !important;
 }
 
-.makeStyles-paper-2 {
+.makeStyles-paper-1,
+.makeStyles-paper-2,
+.makeStyles-paper-3,
+.makeStyles-paper-4,
+.makeStyles-paper-5,
+.makeStyles-paper-6,
+.makeStyles-paper-7,
+.makeStyles-paper-8 {
  -ms-overflow-style: none;
  scrollbar-width: none;
 }
